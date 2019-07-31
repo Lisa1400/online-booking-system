@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dr Fix MyPain Appointment Bookings</title>
+    <link rel="stylesheet" href="style.css">
+    <header>Book An Appointment Now With Dr. Fix Mypain!</header>
+    
+</head>
+<body>
+ <div class="login-page">
+<div class="form">
+    <form class="register-form" action="" method="GET">    
+            <legend class="legend">Details:</legend>
+            <input type="text" id="name" required autofocus placeholder="full name" pattern="[a-zA-Z]{3,}" title="Please enter more than 3 letters"/>
+            <input type="text" id="email" required placeholder="email address" pattern="[a-zA-Z0-9]{3,}@[a-zA-Z]{3,}[.]{1}[a-zA-Z]{2,}" title="Please enter a valid email address"/>
+            <input type="tel" id="phone" required placeholder="phone number" pattern="[0-9]{10}" title="Please enter 10 digits"/>       
+        <br>            
+            <input type="date" id="date" min="2019-08-01"/>
+            <input type="time" id="time" min="09:00" max="15:00"/>
+            <button id="btn">Submit</button>  
+        <div id="msg">
+            <pre></pre>
+        </div>          
+    </form>
+</div>
+ </div> 
+ <script src="script.js"></script>
+ <footer class="footer">
+    <p>For further information</p>
+    <div class="footEmail">
+        <p><a href="mailto:lisamabe631@gmail.com">
+            e-mail Dr. Fix Mypain</a></p>
+    </div> 
+
+    <div class="footNumber">
+        <p>contact 011-945-0000</p>
+    </div>
+
+ </footer>
+</body>
+</html>

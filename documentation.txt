@@ -1,0 +1,16 @@
+Author: Lerato Lisa Mabe
+Last Modified: 31/07/2019
+Title: Online Booking System
+
+
+Description:
+This is an application that allows a user to book an appointment with Dr. Fix Mypain. 
+It consists of two functions.
+The first function is called addBooking() whereby the information entered by the user is retrieved. 
+Before the information is stored, it goes through a function called checkDateTime(). 
+The function checks if the date and time is already booked by another user, if so, it alerts the user that the date and time is already booked and prompts the user to book a different timeslot or date. 
+If the time and date is not booked by anyone the booking is added successfully and the user is alerted thereof.
+The information is pushed into an empty array and then displays in local storage.
+
+
+
